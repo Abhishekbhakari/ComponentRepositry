@@ -1,0 +1,39 @@
+project-root/
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── componentController.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── models/
+│   │   ├── componentModel.js
+│   │   └── userModel.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── componentRoutes.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+│
+└── frontend/
+    ├── public/
+    │   ├── index.html
+    └── src/
+        ├── components/
+        │   ├── AdminDashboard.jsx
+        │   ├── ComponentDetails.jsx
+        │   ├── Login.jsx
+        │   ├── Navbar.jsx
+        │   ├── Search.jsx
+        │   └── Signup.jsx
+        ├── context/
+        │   ├── AuthContext.js
+        │   └── AuthState.js
+        ├── App.js
+        ├── index.js
+        └── package.json
+
+
